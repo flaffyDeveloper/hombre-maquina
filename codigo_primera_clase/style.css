@@ -1,0 +1,28 @@
+body{
+            background-color: #FFFDF1;
+            color: #562F00;
+        }
+        .link{
+            color: #FF9644;
+            font-size: large;
+            
+        }
+        .FAH{
+            display: grid;
+            background-color: #FFCE99;
+            height: 100vh;
+            justify-content: center;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 150px 150px ;
+        }
+        .xd{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .gato{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
