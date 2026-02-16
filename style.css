@@ -1,0 +1,125 @@
+body{
+            background-color: black;
+            font-family: "Maven Pro", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: normal;
+            font-style: normal;
+         margin: 0;
+  padding: 0;
+        }
+        .logo{
+            height: 25px;
+        }
+        .gojo{
+            border-radius: 50%;
+        }
+        .bar{
+        background-color: #262626;
+        width: 100%;
+        display: grid;    
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr auto;
+        }
+        h1{
+            color: #FF7F11;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .crunchy-logo{
+            display: flex;
+            align-items: center;
+        }
+        
+        .left{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        .right{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 10px;
+        }
+        p{
+        color: #BFC6C4;
+        }
+        .barra{
+        background-color: #262626;
+    }
+        @media (max-width: 1000px){
+    h1{
+        display: none;
+    }
+    
+}
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.crunchnews{
+    background-color: black;
+}
+.titles{
+    color: white;
+    font-weight: bold;
+    font-size:x-large;
+}
+.portada{
+    height: 300px;
+}
+.sponsorjjk{
+    display: flex;
+    justify-content: center;
+}
+.populares{
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+.bannerjjk{
+    height: 300px;
+}
+.cover{
+    font-size: medium;
+}
+.news{
+    height: 150px;
+}
+.container-grid{
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 281px minmax(250px,500px);
+}
+
+.dungeon{
+    width: 281px;
+    grid-area: 2/1/2
+}
+
+.panel{
+    height: 100px;
+    margin-bottom: 10px;
+}
+.titles-secondary{
+    color: white;
+    font-weight: bold;
+    font-size:small;
+}
+.news-date{
+    font-size: small;
+}
+.multiple-news{
+    grid-row: span 2;
+    gap: 10px;
+
+}
+.panel-flex{
+    display: flex;
+    align-items: center;
+    gap: 10px
+    
+}
